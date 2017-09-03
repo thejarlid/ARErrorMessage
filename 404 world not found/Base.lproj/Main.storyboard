@@ -16,20 +16,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <gestureRecognizers/>
-                        <connections>
-                            <outletCollection property="gestureRecognizers" destination="9JF-62-7qz" appends="YES" id="EWp-1V-pFZ"/>
-                        </connections>
                     </arscnView>
                     <connections>
                         <outlet property="sceneView" destination="BrB-h1-WRS" id="5nT-qQ-ynl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="9JF-62-7qz">
-                    <connections>
-                        <action selector="didTapOnScreen:" destination="BV1-FR-VrT" id="YvB-FK-di2"/>
-                    </connections>
-                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
